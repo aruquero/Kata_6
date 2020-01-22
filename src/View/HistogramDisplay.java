@@ -39,7 +39,7 @@ public class HistogramDisplay extends ApplicationFrame{
     }
 
     private JFreeChart createChart(DefaultCategoryDataset createDataSet) {
-        JFreeChart chart = ChartFactory.createBarChart("Histogram JFreeChart", "Personas", "Nº Personas", createDataSet);
+        JFreeChart chart = ChartFactory.createBarChart("Histogram JFreeChart", "Nacionalidades", "Nº Personas", createDataSet);
         return chart;
     }
     

@@ -60,8 +60,8 @@ public class DataBase {
             ResultSet resultset = statement.executeQuery(SQL);
             
             while (resultset.next()) {
-                this.components.put(resultset.getString("NOMBRE"), resultset.getString("PERIODICO"));
-                System.out.println(resultset.getString("NOMBRE") + " " + resultset.getString("PERIODICO"));
+                this.components.put(resultset.getString("NOMBRE"), resultset.getString("NACIONALIDAD"));
+                System.out.println(resultset.getString("NOMBRE") + " " + resultset.getString("NACIONALIDAD"));
             }
         } catch (SQLException ex) {
             System.out.println("ERROR AL SELECCIONAR EN BASE DE DATOS " + ex.getMessage());

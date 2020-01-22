@@ -10,7 +10,7 @@ import java.util.HashMap;
 public class Kata6 {
 
     public static void main(String[] args) {
-        String url = "jdbc:sqlite:C:\\Users\\Nestor\\Documents\\NetBeansProjects\\Kata6\\Sqlite\\kata6.db";
+        String url = "jdbc:sqlite:C:\\Users\\marco\\Desktop\\Kata6-Master\\Sqlite\\kata6.db";
         DataBase database = new DataBase(url);
         database.open();
         database.select();
